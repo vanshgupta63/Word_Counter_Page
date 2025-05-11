@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Word Count Result</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body class="result-page">
+<div class="container">
+    <h1>Word Count Result</h1>
+    {% if error %}
+        <p class="result error">Error: {{ error }}</p>
+    {% else %}
+        <p class="result">The file <strong>{{ filename }}</strong> contains <strong>{{ word_count }}</strong> words.</p>
+    {% endif %}
+    <a href="/">Upload another file</a>
+</div>
+</body>
+</html>

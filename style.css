@@ -1,0 +1,62 @@
+body.upload-page {
+    background-color: #32b3d3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 2em;
+}
+
+body.result-page {
+    background: url('/static/word-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 2em;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: rgba(216, 216, 230, 0.95);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #02081f;
+    text-align: center;
+}
+
+h1 {
+    color: #1b1a1a;
+}
+
+input[type=file] {
+    display: block;
+    margin: 20px auto;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #008cff;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.result.error {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: #4174c0;
+}
